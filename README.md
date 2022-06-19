@@ -1,2 +1,2 @@
-# Poodle
+# MVVM + clean architecture
  
