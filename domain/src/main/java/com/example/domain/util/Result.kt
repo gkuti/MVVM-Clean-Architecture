@@ -1,4 +1,4 @@
-package com.example.domain.model
+package com.example.domain.util
 
 sealed class Result<out T : Any> {
 

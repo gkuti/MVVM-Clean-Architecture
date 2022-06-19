@@ -1,9 +1,8 @@
 package com.example.data.util
 
-import com.example.domain.model.Result
+import com.example.domain.util.Result
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.onCompletion
 import kotlinx.coroutines.flow.onStart
 
 

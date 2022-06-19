@@ -13,7 +13,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.domain.model.Breed
-import com.example.domain.model.Result
+import com.example.domain.util.Result
 import com.example.poodle.R
 import com.example.poodle.databinding.FragmentSearchBinding
 import com.example.poodle.ui.utils.toFlow

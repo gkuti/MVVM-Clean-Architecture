@@ -3,7 +3,7 @@ package com.example.poodle.ui.search
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.example.data.repositories.SearchRepositoryImpl
 import com.example.domain.model.Breed
-import com.example.domain.model.Result
+import com.example.domain.util.Result
 import com.example.domain.usecase.SearchUsecase
 import com.example.poodle.ui.util.TestCoroutineRule
 import kotlinx.coroutines.ExperimentalCoroutinesApi

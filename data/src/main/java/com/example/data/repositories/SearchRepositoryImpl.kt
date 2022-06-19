@@ -4,7 +4,7 @@ import com.example.data.remote.SearchApi
 import com.example.data.util.apiCall
 import com.example.data.util.applyCommonSideEffects
 import com.example.domain.model.Breed
-import com.example.domain.model.Result
+import com.example.domain.util.Result
 import com.example.domain.repository.SearchRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow

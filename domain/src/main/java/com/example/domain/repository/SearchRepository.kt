@@ -1,7 +1,7 @@
 package com.example.domain.repository
 
 import com.example.domain.model.Breed
-import com.example.domain.model.Result
+import com.example.domain.util.Result
 import kotlinx.coroutines.flow.Flow
 
 interface SearchRepository {

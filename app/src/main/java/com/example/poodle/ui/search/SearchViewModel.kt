@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.data.util.cancelIfActive
 import com.example.domain.model.Breed
-import com.example.domain.model.Result
+import com.example.domain.util.Result
 import com.example.domain.usecase.SearchUsecase
 import com.example.poodle.ui.utils.NO_CHARACTER
 import kotlinx.coroutines.Job

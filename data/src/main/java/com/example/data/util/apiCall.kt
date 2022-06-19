@@ -1,6 +1,6 @@
 package com.example.data.util
 
-import com.example.domain.model.Result
+import com.example.domain.util.Result
 import retrofit2.Response
 import java.io.IOException
 
