@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Poodle</string>
+    <string name="connection_error">Connection Error</string>
+    <string name="image_url">https://cdn2.thedogapi.com/images/%1$s.jpg</string>
+    <string name="other_info">Bred For: %1$s\nTemperament: %2$s\nLife Span: %3$s</string>
+    <string name="enter_dog_breed">Enter dog breed</string>
+    <string name="no_result_found">No Result Found</string>
+</resources>
