@@ -33,14 +33,15 @@ android {
 
 dependencies {
     implementation "androidx.core:core-ktx:$ktxCoreVersion"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
+
+    //Resource Loaders
+    api "com.squareup.okhttp3:logging-interceptor:$okHttpLoggerVersion"
+    api "com.squareup.retrofit2:converter-moshi:$retrofitVersion"
     api "com.squareup.retrofit2:retrofit:$retrofitVersion"
-    api "com.google.dagger:dagger:$daggerVersion"
     api "com.squareup.moshi:moshi:$moshiVersion"
 
-
-
-    implementation "androidx.room:room-runtime:$roomVersion"
-    implementation "androidx.room:room-ktx:$roomVersion"
+    api "com.google.dagger:dagger:$daggerVersion"
 
     //Compilers
     kapt "androidx.room:room-compiler:$roomVersion"

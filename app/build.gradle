@@ -43,9 +43,6 @@ dependencies {
     implementation project(":data")
 
     //Core
-    implementation "androidx.core:core-ktx:$ktxCoreVersion"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$viewmodelVersion"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$viewmodelVersion"
     implementation "com.google.dagger:dagger:$daggerVersion"
@@ -59,20 +56,15 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:$navVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navVersion"
 
-    //Resource Loaders
+    //Image Loader
     implementation "io.coil-kt:coil:$coilVersion"
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.1'
 
     //Testing
     testImplementation "org.mockito:mockito-core:3.11.2"
-    testImplementation 'androidx.arch.core:core-testing:2.0.0'
+    testImplementation 'androidx.arch.core:core-testing:2.1.0'
     testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.0'
     testImplementation "org.mockito.kotlin:mockito-kotlin:3.2.0"
     testImplementation 'org.mockito:mockito-inline:2.13.0'
-
-    implementation "androidx.room:room-runtime:$roomVersion"
-    implementation "androidx.room:room-ktx:$roomVersion"
 
     //Compilers
     kapt "com.google.dagger:dagger-compiler:$daggerVersion"

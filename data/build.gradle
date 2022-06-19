@@ -32,22 +32,6 @@ android {
 
 dependencies {
     api project(":domain")
-    //Core
-    implementation "androidx.core:core-ktx:$ktxCoreVersion"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
-
-    //Resource Loaders
-    api "com.squareup.okhttp3:logging-interceptor:$okHttpLoggerVersion"
-    api "com.squareup.retrofit2:retrofit:$retrofitVersion"
-    api "com.squareup.retrofit2:converter-moshi:$retrofitVersion"
-    api "com.squareup.moshi:moshi:$moshiVersion"
-
-    implementation 'androidx.appcompat:appcompat:1.4.2'
-    implementation 'com.google.android.material:material:1.6.1'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //Compilers
     kapt "com.squareup.moshi:moshi-kotlin-codegen:$moshiVersion"
